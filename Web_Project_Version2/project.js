@@ -374,7 +374,7 @@
                       
                              if(response)
                              {
-                                                            
+                                       $("#show_table").text("");                     
                                      $("#show_table").css({"display":"block"});
                                      var s="";
                                       var persons = JSON.parse(response);
